@@ -60,36 +60,8 @@ function total() {
     totalCost += cart[i].itemPrice;
   }
   return totalCost;
-
-  
-  
-  /*var sum = function(num) {
-    var total = 0;
-    for (var i = 0; i < num.length; i++) {
-        if (typeof i == "number") {
-            total += num[i];
-        }
-    }
-    return total
-} */
-  
-  
-  
-  
-  
-  
-  
-  
-   /*var sum = 
-for (index = 0; index < array.length; index++){ 
-} 
-  return sum */
-  
-  //reduce(function(a, b) { return a + b }, 0) 
-  
-  /*var sum = Math.abs(cart)
-  return sum*/
 }
+
 
 function removeFromCart(item) {
   // write your code here
